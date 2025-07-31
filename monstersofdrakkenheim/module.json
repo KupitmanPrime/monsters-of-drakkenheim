@@ -1,0 +1,45 @@
+{
+  "id": "monstersofdrakkenheim",
+  "title": "Monsters_of_Drakkenheim",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "monstersofdrakkenheim",
+      "label": "Monsters_of_Drakkenheim",
+      "path": "packs/monstersofdrakkenheim",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "predmety",
+      "label": "Предметы",
+      "path": "packs/predmety",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "url": "https://github.com/KupitmanPrime/monsters-of-drakkenheim",
+  "manifest": "https://raw.githubusercontent.com/KupitmanPrime/monsters-of-drakkenheim/main/module.json",
+  "download": "https://github.com/KupitmanPrime/monsters-of-drakkenheim/releases/download/v1.0.0/monsters-of-drakkenheim.zip"
+}
